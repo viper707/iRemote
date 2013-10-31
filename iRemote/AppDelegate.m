@@ -18,8 +18,8 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    //self.navController = [[UINavigationController alloc] initWithRootViewController:[[LandingViewController alloc] initWithNibName:@"LandingView" bundle:nil]];
-    self.navController = [[UINavigationController alloc] initWithRootViewController:[[RemoteViewController alloc] initWithNibName:@"RemoteView" bundle:nil]];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:[[LandingViewController alloc] initWithNibName:@"LandingView" bundle:nil]];
+    //self.navController = [[UINavigationController alloc] initWithRootViewController:[[RemoteViewController alloc] initWithNibName:@"RemoteView" bundle:nil]];
     self.window.rootViewController = self.navController;
     
     self.window.backgroundColor = [UIColor whiteColor];

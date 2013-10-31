@@ -40,9 +40,9 @@
     NSLog(@"Connect clicked");
     
     UINavigationController *parent = (UINavigationController*) self.parentViewController;
-    UIViewController *remoteScreen = [[RemoteViewController alloc] init];
+    UIViewController *remoteScreen = [[RemoteViewController alloc] initWithNibName:@"RemoteView" bundle:nil];
     
-    //[parent popViewControllerAnimated:NO];
+    [parent popViewControllerAnimated:NO];
     [parent pushViewController:remoteScreen animated:NO];
 }
 

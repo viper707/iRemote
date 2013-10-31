@@ -31,6 +31,7 @@
 	// Do any additional setup after loading the view.
     
     self.buttons = [NSArray arrayWithObject:[[AddButtonModel alloc] init]];
+    //self.buttons = [[NSArray alloc] init];
     
     //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"AddButton"];
     //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"iRButton"];
@@ -87,10 +88,6 @@
     else {
         NSLog(@"Clicked something strange");
     }
-}
-
-- (IBAction)addButtonClicked:(id)sender {
-    
 }
 
 

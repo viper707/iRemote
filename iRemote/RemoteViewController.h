@@ -12,5 +12,4 @@
 
 @property (strong, nonatomic) NSArray *buttons;
 
-- (IBAction)addButtonClicked:(id)sender;
 @end
