@@ -31,17 +31,11 @@
 	// Do any additional setup after loading the view.
     
     self.buttons = [NSArray arrayWithObject:[[AddButtonModel alloc] init]];
-    //self.buttons = [[NSArray alloc] init];
     
-    //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"AddButton"];
-    //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"iRButton"];
     
-    /*UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setItemSize:CGSizeMake(200, 200)];
-    [flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
+    UINib *addButtonNib = [UINib nibWithNibName:@"AddButtonView" bundle:nil];
     
-    [self.collectionView setCollectionViewLayout:flowLayout];*/
-    
+    [self.collectionView registerNib:addButtonNib forCellWithReuseIdentifier:@"AddButton"];
 }
 
 - (void)didReceiveMemoryWarning

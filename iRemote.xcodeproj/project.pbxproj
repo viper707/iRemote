@@ -13,21 +13,20 @@
 		96279F0B181F792500846F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96279F09181F792500846F8D /* InfoPlist.strings */; };
 		96279F0D181F792500846F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96279F0C181F792500846F8D /* main.m */; };
 		96279F11181F792500846F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96279F10181F792500846F8D /* AppDelegate.m */; };
-		96279F14181F792500846F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96279F12181F792500846F8D /* Main.storyboard */; };
 		96279F1C181F792500846F8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96279F1B181F792500846F8D /* Images.xcassets */; };
 		96279F23181F792500846F8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96279F22181F792500846F8D /* XCTest.framework */; };
 		96279F24181F792500846F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96279F00181F792500846F8D /* Foundation.framework */; };
 		96279F25181F792500846F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96279F04181F792500846F8D /* UIKit.framework */; };
 		96279F2D181F792500846F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96279F2B181F792500846F8D /* InfoPlist.strings */; };
 		96279F2F181F792500846F8D /* iRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96279F2E181F792500846F8D /* iRemoteTests.m */; };
-		962DD32418203CA000595EA8 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD32318203CA000595EA8 /* MainNavController.m */; };
 		962DD32718203D5900595EA8 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD32618203D5900595EA8 /* LandingViewController.m */; };
 		962DD32E18204A1D00595EA8 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD32C18204A1D00595EA8 /* BLE.m */; };
 		962DD3311820575000595EA8 /* RemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD3301820575000595EA8 /* RemoteViewController.m */; };
-		962DD33618205AD600595EA8 /* AddButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD33518205AD600595EA8 /* AddButton.m */; };
-		962DD33918205AED00595EA8 /* RemoteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD33818205AED00595EA8 /* RemoteButton.m */; };
 		962DD33F18205E6400595EA8 /* IrButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD33E18205E6400595EA8 /* IrButtonModel.m */; };
 		962DD34218207E8700595EA8 /* AddButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 962DD34118207E8700595EA8 /* AddButtonModel.m */; };
+		965275E11822CDA4002ABDD5 /* LandingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965275E01822CDA4002ABDD5 /* LandingView.xib */; };
+		965275E51822EDDC002ABDD5 /* RemoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965275E41822EDDC002ABDD5 /* RemoteView.xib */; };
+		965275EB18230013002ABDD5 /* AddButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965275EA18230013002ABDD5 /* AddButtonView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +50,12 @@
 		96279F0E181F792500846F8D /* iRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRemote-Prefix.pch"; sourceTree = "<group>"; };
 		96279F0F181F792500846F8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96279F10181F792500846F8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96279F13181F792500846F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96279F1B181F792500846F8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96279F21181F792500846F8D /* iRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96279F22181F792500846F8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		96279F2A181F792500846F8D /* iRemoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRemoteTests-Info.plist"; sourceTree = "<group>"; };
 		96279F2C181F792500846F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96279F2E181F792500846F8D /* iRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRemoteTests.m; sourceTree = "<group>"; };
-		962DD32218203CA000595EA8 /* MainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavController.h; sourceTree = "<group>"; };
-		962DD32318203CA000595EA8 /* MainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavController.m; sourceTree = "<group>"; };
 		962DD32518203D5900595EA8 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
 		962DD32618203D5900595EA8 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
 		962DD32B18204A1D00595EA8 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
@@ -67,14 +63,13 @@
 		962DD32D18204A1D00595EA8 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
 		962DD32F1820575000595EA8 /* RemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteViewController.h; sourceTree = "<group>"; };
 		962DD3301820575000595EA8 /* RemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteViewController.m; sourceTree = "<group>"; };
-		962DD33418205AD600595EA8 /* AddButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddButton.h; sourceTree = "<group>"; };
-		962DD33518205AD600595EA8 /* AddButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddButton.m; sourceTree = "<group>"; };
-		962DD33718205AED00595EA8 /* RemoteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteButton.h; sourceTree = "<group>"; };
-		962DD33818205AED00595EA8 /* RemoteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteButton.m; sourceTree = "<group>"; };
 		962DD33D18205E6400595EA8 /* IrButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrButtonModel.h; sourceTree = "<group>"; };
 		962DD33E18205E6400595EA8 /* IrButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrButtonModel.m; sourceTree = "<group>"; };
 		962DD34018207E8700595EA8 /* AddButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddButtonModel.h; sourceTree = "<group>"; };
 		962DD34118207E8700595EA8 /* AddButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddButtonModel.m; sourceTree = "<group>"; };
+		965275E01822CDA4002ABDD5 /* LandingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingView.xib; sourceTree = "<group>"; };
+		965275E41822EDDC002ABDD5 /* RemoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemoteView.xib; sourceTree = "<group>"; };
+		965275EA18230013002ABDD5 /* AddButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddButtonView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,17 +129,13 @@
 		96279F06181F792500846F8D /* iRemote */ = {
 			isa = PBXGroup;
 			children = (
-				962DD33318205AB800595EA8 /* Buttons */,
 				962DD32B18204A1D00595EA8 /* BLE.h */,
 				962DD32C18204A1D00595EA8 /* BLE.m */,
 				962DD32D18204A1D00595EA8 /* BLEDefines.h */,
 				96279F0F181F792500846F8D /* AppDelegate.h */,
 				96279F10181F792500846F8D /* AppDelegate.m */,
-				96279F12181F792500846F8D /* Main.storyboard */,
 				96279F1B181F792500846F8D /* Images.xcassets */,
 				96279F07181F792500846F8D /* Supporting Files */,
-				962DD32218203CA000595EA8 /* MainNavController.h */,
-				962DD32318203CA000595EA8 /* MainNavController.m */,
 				962DD32518203D5900595EA8 /* LandingViewController.h */,
 				962DD32618203D5900595EA8 /* LandingViewController.m */,
 				962DD32F1820575000595EA8 /* RemoteViewController.h */,
@@ -153,6 +144,9 @@
 				962DD33E18205E6400595EA8 /* IrButtonModel.m */,
 				962DD34018207E8700595EA8 /* AddButtonModel.h */,
 				962DD34118207E8700595EA8 /* AddButtonModel.m */,
+				965275E01822CDA4002ABDD5 /* LandingView.xib */,
+				965275E41822EDDC002ABDD5 /* RemoteView.xib */,
+				965275EA18230013002ABDD5 /* AddButtonView.xib */,
 			);
 			path = iRemote;
 			sourceTree = "<group>";
@@ -184,17 +178,6 @@
 				96279F2B181F792500846F8D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		962DD33318205AB800595EA8 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				962DD33418205AD600595EA8 /* AddButton.h */,
-				962DD33518205AD600595EA8 /* AddButton.m */,
-				962DD33718205AED00595EA8 /* RemoteButton.h */,
-				962DD33818205AED00595EA8 /* RemoteButton.m */,
-			);
-			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965275E11822CDA4002ABDD5 /* LandingView.xib in Resources */,
 				96279F1C181F792500846F8D /* Images.xcassets in Resources */,
+				965275E51822EDDC002ABDD5 /* RemoteView.xib in Resources */,
 				96279F0B181F792500846F8D /* InfoPlist.strings in Resources */,
-				96279F14181F792500846F8D /* Main.storyboard in Resources */,
+				965275EB18230013002ABDD5 /* AddButtonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +281,7 @@
 			files = (
 				962DD33F18205E6400595EA8 /* IrButtonModel.m in Sources */,
 				96279F11181F792500846F8D /* AppDelegate.m in Sources */,
-				962DD33918205AED00595EA8 /* RemoteButton.m in Sources */,
 				962DD34218207E8700595EA8 /* AddButtonModel.m in Sources */,
-				962DD32418203CA000595EA8 /* MainNavController.m in Sources */,
-				962DD33618205AD600595EA8 /* AddButton.m in Sources */,
 				962DD3311820575000595EA8 /* RemoteViewController.m in Sources */,
 				962DD32718203D5900595EA8 /* LandingViewController.m in Sources */,
 				962DD32E18204A1D00595EA8 /* BLE.m in Sources */,
@@ -332,14 +314,6 @@
 				96279F0A181F792500846F8D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		96279F12181F792500846F8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96279F13181F792500846F8D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		96279F2B181F792500846F8D /* InfoPlist.strings */ = {
