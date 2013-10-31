@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RemoteViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+@interface RemoteViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 
-@property (nonatomic, strong) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) NSArray *buttons;
 
 - (IBAction)addButtonClicked:(id)sender;

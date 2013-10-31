@@ -42,8 +42,14 @@
     UINavigationController *parent = (UINavigationController*) self.parentViewController;
     UIViewController *remoteScreen = [[RemoteViewController alloc] init];
     
-    [parent popViewControllerAnimated:NO];
+    //[parent popViewControllerAnimated:NO];
     [parent pushViewController:remoteScreen animated:NO];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [super viewWillAppear:animated];
 }
 
 @end
